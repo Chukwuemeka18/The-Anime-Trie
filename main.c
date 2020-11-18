@@ -43,7 +43,7 @@ int main(void) {
   //One Piece
   node* n1997 = malloc(sizeof(node));
   n199->year[7] = n1997;
-  n1992->show = "One Piece";
+  n1997->show = "One Piece";
 
 
   //Bleach
