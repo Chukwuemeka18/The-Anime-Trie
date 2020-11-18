@@ -37,7 +37,7 @@ int main(void) {
   //Naruto
   node* n1999 = malloc(sizeof(node));
   n199->year[9] = n1999;
-  n1992->show = "Naruto";
+  n1999->show = "Naruto";
 
   
   //One Piece
@@ -90,12 +90,8 @@ int main(void) {
     }
     printf("%ith digit: ", i);
     scanf("%i", &j);
-    l[i-1] = j;
-    k = l[i-1];
-    if(i != 1 && i != 3){
-      if (temp->year[j]->year[k] == NULL){
+    if(i == 4){
         printf("\n%s\n", temp->year[j]->show);
-      }
     }
     i++;
 
