@@ -101,5 +101,6 @@ int main(void) {
 
   }
 
+  //numbers means the thing the numberth pointer n pointing to
   return 0;
 }
