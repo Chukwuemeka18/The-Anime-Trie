@@ -82,8 +82,6 @@ int main(void) {
   ////////////////////////
   int i = 1;
   int j = 0;
-  int k = 0;
-  int l[4];
   for(node* temp = n; temp !=NULL; temp = temp->year[j]){
     if (i == 5){
       break;
